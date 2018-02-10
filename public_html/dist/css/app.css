@@ -3,12 +3,13 @@
 
 .fixed-top {
   box-shadow: 0 4px 2px -2px gray;
+  background-color: white;
   font-weight: bold; }
   .fixed-top #navbarCollapse hr {
     display: none; }
   @media (max-width: 767px) {
     .fixed-top #navbarCollapse {
-      margin: 16px -16px -16px -16px;
+      margin: 8px 0 0 0;
       padding: 0 16px;
       background-color: #2ab27b; }
       .fixed-top #navbarCollapse a {
@@ -19,6 +20,8 @@
         margin: 5px 0;
         height: 1px;
         border-top: 1px solid rgba(255, 255, 255, 0.7); } }
+  .fixed-top div.container {
+    width: 100%; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6053,12 +6056,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .fixed-top {
   box-shadow: 0 4px 2px -2px gray;
+  background-color: white;
   font-weight: bold; }
   .fixed-top #navbarCollapse hr {
     display: none; }
   @media (max-width: 767px) {
     .fixed-top #navbarCollapse {
-      margin: 16px -16px -16px -16px;
+      margin: 8px 0 0 0;
       padding: 0 16px;
       background-color: #2ab27b; }
       .fixed-top #navbarCollapse a {
@@ -6069,3 +6073,5 @@ a.text-dark:hover, a.text-dark:focus {
         margin: 5px 0;
         height: 1px;
         border-top: 1px solid rgba(255, 255, 255, 0.7); } }
+  .fixed-top div.container {
+    width: 100%; }

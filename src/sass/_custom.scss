@@ -3,16 +3,17 @@ $primaryColor: #2ab27b;
 .mainContent {
     padding-top: 100px;
 }
-
+// Top navbar
 .fixed-top {
     box-shadow: 0 4px 2px -2px gray;
+    background-color: white;
     font-weight: bold;
     #navbarCollapse {
         hr {
             display: none;
         }
         @media (max-width: 767px) {
-            margin: 16px -16px -16px -16px;
+            margin: 8px 0 0 0;
             padding: 0 16px;
             background-color: $primaryColor;
             a {
@@ -26,5 +27,8 @@ $primaryColor: #2ab27b;
                 border-top: 1px solid rgba(255, 255, 255, 0.7);
             }
         }
+    }
+    div.container {
+        width: 100%;
     }
 }
