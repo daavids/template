@@ -1,3 +1,30 @@
-h1 {
-    color: rgba(0, 50, 100, 1);
+$primaryColor: #2ab27b;
+
+.mainContent {
+    padding-top: 100px;
+}
+
+.fixed-top {
+    box-shadow: 0 4px 2px -2px gray;
+    font-weight: bold;
+    #navbarCollapse {
+        hr {
+            display: none;
+        }
+        @media (max-width: 767px) {
+            margin: 16px -16px -16px -16px;
+            padding: 0 16px;
+            background-color: $primaryColor;
+            a {
+                margin: 10px 0;
+                color: white;
+            }
+            hr {
+                display: block;
+                margin: 5px 0;
+                height: 1px;
+                border-top: 1px solid rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
 }
