@@ -4,3 +4,4 @@
 <meta name="description" content="Basic info page template">
 <meta name="author" content="Dāvids Gabaliņš">
 <link rel="stylesheet" href="/dist/css/app.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>

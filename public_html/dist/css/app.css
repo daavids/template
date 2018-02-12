@@ -1,5 +1,7 @@
 body {
-  padding-top: 56px; }
+  padding: 56px 0 200px 0;
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 .container-fluid {
   padding: 0; }
@@ -41,6 +43,33 @@ body {
     font-size: 1.2em; }
   .callToAction p {
     margin: 0; }
+
+#services, #about, #contact {
+  margin-top: 16px; }
+  #services h1, #services h5, #services .serviceBoxes .row, #about h1, #about h5, #about .serviceBoxes .row, #contact h1, #contact h5, #contact .serviceBoxes .row {
+    margin: 16px 0; }
+  #services .serviceIcon, #services .serviceTitle, #about .serviceIcon, #about .serviceTitle, #contact .serviceIcon, #contact .serviceTitle {
+    color: #2ab27b; }
+
+#about {
+  margin-bottom: 100px; }
+  #about h5 {
+    margin: 0; }
+  #about .testimonialIcon {
+    height: 80px;
+    width: 80px;
+    margin: 0 15px; }
+    @media (max-width: 767px) {
+      #about .testimonialIcon {
+        margin: 0 15px 60px 15px; } }
+  #about .testimonialInfo {
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 10px; }
+
+.contactBanner {
+  padding: 40px 0;
+  margin-bottom: 60px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6071,7 +6100,9 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 
 body {
-  padding-top: 56px; }
+  padding: 56px 0 200px 0;
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 .container-fluid {
   padding: 0; }
@@ -6113,3 +6144,30 @@ body {
     font-size: 1.2em; }
   .callToAction p {
     margin: 0; }
+
+#services, #about, #contact {
+  margin-top: 16px; }
+  #services h1, #services h5, #services .serviceBoxes .row, #about h1, #about h5, #about .serviceBoxes .row, #contact h1, #contact h5, #contact .serviceBoxes .row {
+    margin: 16px 0; }
+  #services .serviceIcon, #services .serviceTitle, #about .serviceIcon, #about .serviceTitle, #contact .serviceIcon, #contact .serviceTitle {
+    color: #2ab27b; }
+
+#about {
+  margin-bottom: 100px; }
+  #about h5 {
+    margin: 0; }
+  #about .testimonialIcon {
+    height: 80px;
+    width: 80px;
+    margin: 0 15px; }
+    @media (max-width: 767px) {
+      #about .testimonialIcon {
+        margin: 0 15px 60px 15px; } }
+  #about .testimonialInfo {
+    padding: 16px;
+    margin: 16px 0;
+    border-radius: 10px; }
+
+.contactBanner {
+  padding: 40px 0;
+  margin-bottom: 60px; }

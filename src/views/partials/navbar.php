@@ -12,9 +12,9 @@
             // add links here
             $links = [
                 ["/","HOME"],
-                ["/about", "ABOUT US"],
                 ["/index#services", "OUR SERVICES"],
-                ["/contact", "CONTACT US"]
+                ["/index#about", "ABOUT US"],                
+                ["/index#contact", "CONTACT US"]
             ];
 
             foreach($links as $link) {
@@ -23,6 +23,9 @@
                     <a class="nav-link" href="' . $link[0] . '">' . $link[1] . '</a>
                 </li>
                 ';
+                if (!($link === end($links))) {
+                    echo '<hr>';
+                }
             }
             ?>
             </ul>
