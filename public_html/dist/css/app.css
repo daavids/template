@@ -71,6 +71,9 @@ body {
   padding: 40px 0;
   margin-bottom: 60px; }
 
+#contact form {
+  margin-right: 32px; }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6171,3 +6174,6 @@ body {
 .contactBanner {
   padding: 40px 0;
   margin-bottom: 60px; }
+
+#contact form {
+  margin-right: 32px; }

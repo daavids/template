@@ -1,5 +1,7 @@
 Starter template structure for a PHP project  
   
+Some of the source code is taken from: https://github.com/BlackrockDigital/startbootstrap-modern-business  
+  
 File structure:  
 --config/ : all non-public PHP files - db connections, functions etc.  
 ----router.php : function that loads the views
