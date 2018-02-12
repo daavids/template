@@ -1,5 +1,5 @@
-.mainContent {
-  padding-top: 100px; }
+body {
+  padding-top: 56px; }
 
 .fixed-top {
   box-shadow: 0 4px 2px -2px gray;
@@ -22,6 +22,15 @@
         border-top: 1px solid rgba(255, 255, 255, 0.7); } }
   .fixed-top div.container {
     width: 100%; }
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6051,8 +6060,8 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #ddd !important; } }
 
-.mainContent {
-  padding-top: 100px; }
+body {
+  padding-top: 56px; }
 
 .fixed-top {
   box-shadow: 0 4px 2px -2px gray;
@@ -6075,3 +6084,12 @@ a.text-dark:hover, a.text-dark:focus {
         border-top: 1px solid rgba(255, 255, 255, 0.7); } }
   .fixed-top div.container {
     width: 100%; }
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }

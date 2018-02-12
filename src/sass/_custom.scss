@@ -1,7 +1,7 @@
 $primaryColor: #2ab27b;
 
-.mainContent {
-    padding-top: 100px;
+body {
+    padding-top: 56px;
 }
 // Top navbar
 .fixed-top {
@@ -31,4 +31,14 @@ $primaryColor: #2ab27b;
     div.container {
         width: 100%;
     }
+}
+// index carousel
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
