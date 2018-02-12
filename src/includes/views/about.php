@@ -1,1 +1,0 @@
-<h1 class="text-center">About us page</h1>

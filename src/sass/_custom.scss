@@ -1,18 +1,24 @@
 $primaryColor: #2ab27b;
 
-.mainContent {
-    padding-top: 100px;
+body {
+    padding-top: 56px;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
+// Top navbar
 .fixed-top {
     box-shadow: 0 4px 2px -2px gray;
+    background-color: white;
     font-weight: bold;
     #navbarCollapse {
         hr {
             display: none;
         }
         @media (max-width: 767px) {
-            margin: 16px -16px -16px -16px;
+            margin: 8px 0 0 0;
             padding: 0 16px;
             background-color: $primaryColor;
             a {
@@ -26,5 +32,28 @@ $primaryColor: #2ab27b;
                 border-top: 1px solid rgba(255, 255, 255, 0.7);
             }
         }
+    }
+    div.container {
+        width: 100%;
+    }
+}
+// index carousel
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.callToAction {
+    padding: 16px 0;
+    .btn {
+        font-size: 1.2em;
+    }
+    p {
+        margin: 0;
     }
 }

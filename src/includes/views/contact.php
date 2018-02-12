@@ -1,1 +1,0 @@
-<h1 class="text-center">Contact us page</h1>
