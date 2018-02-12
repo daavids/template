@@ -2,7 +2,7 @@
 
 function loadView()
 {
-    $path = '../src/includes/views/';
+    $path = '../src/views/pages/';
     $url = $_SERVER['REQUEST_URI'];
 
     if (strlen($url) === 1 && $url === '/') { 
