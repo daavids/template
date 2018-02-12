@@ -9,9 +9,7 @@
         <?php include('partials/navbar.php'); ?>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-9 mx-auto mainContent">
-                        <?php require('../config/router.php'); ?>
-                    </div>
+                    <?php require('../config/router.php'); ?>
                 </div>
             </div>
         </div>
