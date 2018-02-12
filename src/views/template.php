@@ -14,8 +14,6 @@
             </div>
         </div>
         <script src="/dist/js/app.js"></script>
-        <script>
-            var scroll = new SmoothScroll('a[href*="#"]');
-        </script>
+        <script> var scroll = new SmoothScroll('a[href*="#"]', { offset: 56 }); </script>
     </body>
 </html>
