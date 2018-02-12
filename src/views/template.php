@@ -7,10 +7,8 @@
     <body>
         <div id="app">
         <?php include('partials/navbar.php'); ?>
-            <div class="container-fluid">
-                <div class="row">
-                    <?php require('../config/router.php'); ?>
-                </div>
+            <div class="container-fluid mainContainer">
+                <?php require('../config/router.php'); ?>
             </div>
         </div>
         <script src="/dist/js/app.js"></script>
