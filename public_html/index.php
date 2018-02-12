@@ -1,1 +1,1 @@
-<?php require('../src/views/template.php'); ?>
+<?php require("../src/views/template.php"); ?>

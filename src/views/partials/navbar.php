@@ -8,15 +8,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto text-right">
+            <?php
+            // add links here
+            $links = [
+                ["/","HOME"],
+                ["/about", "ABOUT US"],
+                ["/index#services", "OUR SERVICES"],
+                ["/contact", "CONTACT US"]
+            ];
+
+            foreach($links as $link) {
+                echo '
                 <li class="nav-item">
-                    <a class="nav-link" href="/">HOME</a><hr>
+                    <a class="nav-link" href="' . $link[0] . '">' . $link[1] . '</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/about">ABOUT US</a><hr>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">CONTACT US</a>
-                </li>
+                ';
+            }
+            ?>
             </ul>
         </div>
     </div>    

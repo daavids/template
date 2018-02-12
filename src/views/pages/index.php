@@ -55,3 +55,8 @@
         </div><!-- end call to action -->
     </div>
 </div>
+<div class="row" id="services">
+    <div class="col-md-9 mx-auto">
+        <h3>Our <b>Services</b></h3>
+    </div>
+</div>
