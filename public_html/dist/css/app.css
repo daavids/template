@@ -1,5 +1,5 @@
 body {
-  padding: 56px 0 200px 0;
+  padding: 56px 0 0 0;
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -12,6 +12,8 @@ body {
   font-weight: bold; }
   .fixed-top #navbarCollapse hr {
     display: none; }
+  .fixed-top #navbarCollapse a {
+    font-size: 0.9em; }
   @media (max-width: 767px) {
     .fixed-top #navbarCollapse {
       margin: 8px 0 0 0;
@@ -73,6 +75,29 @@ body {
 
 #contact form {
   margin-right: 32px; }
+
+.footer {
+  margin: 32px 0 0 0;
+  padding: 64px 0 100px 0; }
+  .footer hr {
+    border-top: 1px solid white; }
+
+.footerInfo {
+  padding-right: 64px; }
+
+.pricingBanner, .portfolioBanner {
+  padding: 16px 0; }
+
+.pricingTable, .pricingHeading, .portfolio-item {
+  margin: 32px 0; }
+
+.pricingIncludes {
+  margin: 64px 0; }
+  .pricingIncludes div.card {
+    margin: 16px 0;
+    border-top: 4px solid #2ab27b; }
+    .pricingIncludes div.card .card-header {
+      font-weight: bold; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6103,7 +6128,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 
 body {
-  padding: 56px 0 200px 0;
+  padding: 56px 0 0 0;
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -6116,6 +6141,8 @@ body {
   font-weight: bold; }
   .fixed-top #navbarCollapse hr {
     display: none; }
+  .fixed-top #navbarCollapse a {
+    font-size: 0.9em; }
   @media (max-width: 767px) {
     .fixed-top #navbarCollapse {
       margin: 8px 0 0 0;
@@ -6177,3 +6204,26 @@ body {
 
 #contact form {
   margin-right: 32px; }
+
+.footer {
+  margin: 32px 0 0 0;
+  padding: 64px 0 100px 0; }
+  .footer hr {
+    border-top: 1px solid white; }
+
+.footerInfo {
+  padding-right: 64px; }
+
+.pricingBanner, .portfolioBanner {
+  padding: 16px 0; }
+
+.pricingTable, .pricingHeading, .portfolio-item {
+  margin: 32px 0; }
+
+.pricingIncludes {
+  margin: 64px 0; }
+  .pricingIncludes div.card {
+    margin: 16px 0;
+    border-top: 4px solid #2ab27b; }
+    .pricingIncludes div.card .card-header {
+      font-weight: bold; }

@@ -1,7 +1,7 @@
 $primaryColor: #2ab27b;
 
 body {
-    padding: 56px 0 200px 0;
+    padding: 56px 0 0 0;
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -18,6 +18,9 @@ body {
     #navbarCollapse {
         hr {
             display: none;
+        }
+        a {
+            font-size: 0.9em;
         }
         @media (max-width: 767px) {
             margin: 8px 0 0 0;
@@ -97,5 +100,36 @@ body {
 #contact {
     form {
         margin-right: 32px;
+    }
+}
+
+.footer {
+    margin: 32px 0 0 0;
+    padding: 64px 0 100px 0;
+    hr {
+        border-top: 1px solid white;
+    }
+}
+
+.footerInfo {
+    padding-right: 64px;
+}
+
+.pricingBanner, .portfolioBanner {
+    padding: 16px 0;
+}
+
+.pricingTable, .pricingHeading, .portfolio-item {
+    margin: 32px 0;
+}
+
+.pricingIncludes {
+    margin: 64px 0;
+    div.card {
+        margin: 16px 0;
+        border-top: 4px solid $primaryColor;
+        .card-header {
+            font-weight: bold;
+        }
     }
 }
