@@ -14,6 +14,8 @@
                 ["/","HOME"],
                 ["/index#services", "OUR SERVICES"],
                 ["/index#about", "ABOUT US"],                
+                ["/pricing", "PRICING"],
+                ["/portfolio", "PORTFOLIO"],
                 ["/index#contact", "CONTACT US"]
             ];
 
