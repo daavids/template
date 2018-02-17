@@ -10,6 +10,9 @@
             <div class="container-fluid mainContainer">
                 <?php require('../config/router.php'); ?>
             </div>
+            <div class="bg-dark text-light footer">
+                <?php include('partials/footer.php'); ?>
+            </div>
         </div>
         <script src="/dist/js/app.js"></script>
         <script> 

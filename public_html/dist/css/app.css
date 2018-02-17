@@ -1,5 +1,5 @@
 body {
-  padding: 56px 0 200px 0;
+  padding: 56px 0 0 0;
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -73,6 +73,15 @@ body {
 
 #contact form {
   margin-right: 32px; }
+
+.footer {
+  margin: 32px 0 0 0;
+  padding: 64px 0 100px 0; }
+  .footer hr {
+    border-top: 1px solid white; }
+
+.footerInfo {
+  padding-right: 64px; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6103,7 +6112,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important; } }
 
 body {
-  padding: 56px 0 200px 0;
+  padding: 56px 0 0 0;
   overflow-y: scroll;
   overflow-x: hidden; }
 
@@ -6177,3 +6186,12 @@ body {
 
 #contact form {
   margin-right: 32px; }
+
+.footer {
+  margin: 32px 0 0 0;
+  padding: 64px 0 100px 0; }
+  .footer hr {
+    border-top: 1px solid white; }
+
+.footerInfo {
+  padding-right: 64px; }
