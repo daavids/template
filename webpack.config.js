@@ -36,5 +36,8 @@ module.exports = {
     },
     plugins: [
         extractSass
-    ]
+    ],
+    watchOptions: {
+        poll: true
+    }
 };

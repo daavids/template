@@ -1,3 +1,4 @@
 require('bootstrap');
 
-let hello = "hello world";
+// https://github.com/cferdinandi/smooth-scroll
+window.SmoothScroll = require('smooth-scroll');

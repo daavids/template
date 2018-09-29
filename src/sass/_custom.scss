@@ -1,3 +1,135 @@
-h1 {
-    color: rgba(0, 50, 100, 1);
+$primaryColor: #2ab27b;
+
+body {
+    padding: 56px 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+// Top navbar
+.fixed-top {
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: white;
+    font-weight: bold;
+    #navbarCollapse {
+        hr {
+            display: none;
+        }
+        a {
+            font-size: 0.9em;
+        }
+        @media (max-width: 767px) {
+            margin: 8px 0 0 0;
+            padding: 0 16px;
+            background-color: $primaryColor;
+            a {
+                margin: 10px 0;
+                color: white;
+            }
+            hr {
+                display: block;
+                margin: 5px 0;
+                height: 1px;
+                border-top: 1px solid rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+    div.container {
+        width: 100%;
+    }
+}
+// index carousel
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.callToAction {
+    padding: 16px 0;
+    .btn {
+        font-size: 1.2em;
+    }
+    p {
+        margin: 0;
+    }
+}
+#services, #about, #contact {
+    margin-top: 16px;
+    h1, h5, .serviceBoxes .row {
+        margin: 16px 0;
+    }
+    .serviceIcon, .serviceTitle {
+        color: $primaryColor;
+    }
+}
+
+#about {
+    h5 {
+        margin: 0;
+    }
+    .testimonialIcon {
+        height: 80px;
+        width: 80px;
+        margin: 0 15px;
+        @media (max-width: 767px) {
+            margin: 0 15px 60px 15px;
+        } 
+    }    
+    .testimonialInfo {
+        padding: 16px;
+        margin: 16px 0;
+        border-radius: 10px;
+    }
+    margin-bottom: 100px;
+}
+
+.contactBanner {
+    padding: 40px 0;
+    margin-bottom: 60px;
+}
+
+#contact {
+    form {
+        margin-right: 32px;
+    }
+}
+
+.footer {
+    margin: 32px 0 0 0;
+    padding: 64px 0 100px 0;
+    hr {
+        border-top: 1px solid white;
+    }
+}
+
+.footerInfo {
+    padding-right: 64px;
+}
+
+.pricingBanner, .portfolioBanner {
+    padding: 16px 0;
+}
+
+.pricingTable, .pricingHeading, .portfolio-item {
+    margin: 32px 0;
+}
+
+.pricingIncludes {
+    margin: 64px 0;
+    div.card {
+        margin: 16px 0;
+        border-top: 4px solid $primaryColor;
+        .card-header {
+            font-weight: bold;
+        }
+    }
 }
