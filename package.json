@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mrtehnuke@bitbucket.org/mrtehnuke/btdev.git"
+    "url": "git+https://github.com/mrtehnuke/template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/mrtehnuke/btdev#readme"
+  "homepage": "https://github.com/mrtehnuke/template"
 }
